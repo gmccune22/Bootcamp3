@@ -207,9 +207,12 @@ React certainly has a learning curve, and you should take some time going throug
 [**React Developer Tools**](https://www.freecodecamp.org/news/how-to-see-your-react-state-props-in-the-browser-774098a50fcc/) Download the React Developer Tools Chrome Plug-in to help you debug your application or use the Chrome Developer Tools
 
 **Tutorials**
+
 *Getting Started: Creating a simple react app*
+
 [**Baby Name Tutorial**](https://www.youtube.com/playlist?list=PLHrxuCR-0CcT7hgVVlh0lBWTqYkEEF55m) This is a 12 part video tutorial that walks through how to create a simple web applicaiton. It is very similar to the app that you will create in this assignment. *NOTE: I highly recommend working throuhg this tutorial and adapting it to complete this assighment.*
-[**Create-react-app**](https://reactjs.org/docs/create-a-new-react-app.html) is a comfortable environment for learning React, and is the best way to start building a new single-page application in React.
+
+[**Vite's React Template**](https://www.youtube.com/watch?v=agpZsCUllqc&ab_channel=ReactTailwind) will help you get started with a scaffold for your first React project. Previously, we used the create-react-app tool to get started with React. However, create-react-app is no longer recommended as Vite is a newer tool that is much faster and has a lot of great features.
 
 **Other Tutorials**
 -   *Tutorialspoint*: [ReactJS Tutorial](https://www.tutorialspoint.com/reactjs/index.htm)
@@ -259,55 +262,56 @@ React certainly has a learning curve, and you should take some time going throug
 For this assignment you will be building upon our UF directory application by creating a front-end interface with React.js to display listings, search/filter, as well as the ability to add new listings and delete old ones. Note: We won't connect the front-end to the back-end in this assignment, we will leave that for Bootcamp #5.
 
 #### In this GitHub Repository, you are given the following files
-*When using the [create-react-app](https://github.com/facebook/create-react-app) read the readMe to get a starter application up and running, you can replace the src file in the starter application with the src file from the Bootcamp #4 assignment repo*
-- *Data.js* - A list of buildings formatted to work with React and JSX to render the contents to the browser
-- *index.css* - A starter CSS templage for you to use for this project
-- *app.css* - An empty file that we aren't using for this project but do not delete it as it will affect the functioning of your program
-- *index.js* - This file is used in creating the application file that you will be manipulating through the App.js file. This is where we have injected the data.js file and the building data that we pass around for the entire application.
-- *App.js* - This is the main application we are developing. The majority of our development will be in this file.
+*After using the [**create-vite**](https://vitejs.dev/guide/#scaffolding-your-first-vite-project) tool with the React template, you can replace the src file in the starter application with the src file from the Bootcamp #4 assignment repo*. You'll then see the following files in your project directory:
+- *src/data/data.js* - A list of buildings formatted to work with React and JSX to render the contents to the browser
+- *src/App.css* - An empty file that we aren't using for this project but do not delete it as it will affect the functioning of your program
+- *src/App.jsx* - This is the main application we are developing. The majority of our development will be in this file.
     - It prints out the directory listings
     - It has a Textbox for searching/filtering the results
     - It has a display box for printing out more details about the selected building
     - It imports and uses several React Component files to implement this functionality
+- *src/index.css* - A starter CSS template for you to use for this project
+- *src/main.jsx* - This file is used in creating the application file that you will be manipulating through the App.jsx file. This is where we have injected the data.js file and the building data that we pass around for the entire application.
 
-- React Component Files - *React use compoenents to organize and squirrel away functionality so that we can reuse it in multiple places. Ultimately, it allows our code to look cleaner and maximizes reusability for future developmen.*
-    - *BuildingList.js* - This is a React Component that prints the building code and the name to the screen
-    - *Search.js*  - This is a React Component that filters the contents of the list based on the user's input in the textbox
-    - *ViewBuilding.js* - This is a React Component that allows us to view additional listing details for the current selected building             when a user clicks on a listing
+- React Component Files - *React uses components to organize and squirrel away functionality so that we can reuse it in multiple places. Ultimately, it allows our code to look cleaner and maximizes reusability for future development.*
+    - *src/components/BuildingList.jsx* - This is a React Component that prints the building code and the name to the screen
+    - *src/components/Credit.jsx* - This is a React Component that displays the credits for the building data
+    - *src/components/Search.jsx*  - This is a React Component that filters the contents of the list based on the user's input in the textbox
+    - *src/components/ViewBuilding.jsx* - This is a React Component that allows us to view additional listing details for the current selected building             when a user clicks on a listing
 
-#### Development Goals - To DO List:
+#### Development Goals - To Do List:
 In this assignment, we are only focused on creating your front-end user interface to filter and display listings, as well as add new listings or delete existing listings.
 
 As you develop the solution to this assignment you will need to complete at least the following tasks.  
 
-- App.js - Main Application
+- App.jsx - Main Application
     - Create the filterUpdate() function - to set the state of filter
     - Create the selectUpdate() function - to set the state of selected building
 
-- BuildingList.js: *In this file you will*
+- BuildingList.jsx: *In this file you will*
     - create a filter on the building list constant that allows you to filter on the name of the building 
     - display only the buldings the meet the filter criteria
     - Create an onClick listener action that will allow you to click on a building name and capture the ID
 
-- Search.js: *In this file you will*
+- Search.jsx: *In this file you will*
     - Capture the text that is typed into the textbox and store this value using the filterUpdate() function
     - use the onChange listener function
     - Note: You will need to understand how to use ref values from form inputs
 
-- ViewBuilding.js:
+- ViewBuilding.jsx:
     - Captured building ID to look-up the additional information for the building
     - Return additional details of the building to be rendered on the screen for the user
 
-- Create two new components that allow you to add and remove elements from the list.
-    - AddBuilding.js - Add a buliding to the listings
-    - RemoveBuilding.js - remove a building from the listings
+- Create two new components in the components folder that allow you to add and remove elements from the list.
+    - AddBuilding.jsx - Add a buliding to the listings
+    - RemoveBuilding.jsx - remove a building from the listings
 
 - index.css - Style the User Interface of this app using CSS and Bootstrap 4 to make this app look professional and user friendly, e.g., 
     - style the listings
     - add icons for search, add, and delete
     - search bar
     - buttons
-    - card for viewing the selected listing (ViewBuilding.js)
+    - card for viewing the selected listing (ViewBuilding.jsx)
 
 
 ### Setup
@@ -330,34 +334,33 @@ As you develop the solution to this assignment you will need to complete at leas
     [Bootstrap Style Guide](https://drive.google.com/file/d/1fumbJT-ln-WzrSY_ZEtN44WhAw2asyXF/view) created for course 
     *You will use this later in the project when you start to style your page* 
 
-2. Install the [create-react-app](https://github.com/facebook/create-react-app#creating-an-app)
-To help us get started quickly, we will be using the create-react-app, a template generator for creating React Applciations quickly without having to install a ton of external dependencies. 
+2. Use the [**create-vite**](https://vitejs.dev/guide/#scaffolding-your-first-vite-project) tool with the React template to help you get started with a scaffold for your first React project.
 
 Run the command in terminal to create a starter application my-app (note: you can change this to bootcamp4 if you like.)
 
-`npx create-react-app my-app`
+`npm create vite@latest my-app --template react`
 
 or
 
-`yarn create react-app my-app`
+`yarn create vite my-app --template react`
 
 or
 
-`npm init react-app my-app`
+`pnpm create vite my-app --template react`
 
-3.  after it is installed, you should be able to cd into the project directory 
+1. After it is installed, you should be able to cd into the project directory with `cd my-app`.
 
-4. Inside the newly created project, you can run some built-in commands:
+2. Inside the newly created project, you can run some built-in commands:
 
-    `npm start` or `yarn start`
+    `npm install` or `yarn install` to install the dependencies.
 
-    Runs the app in development mode.
+    `npm start` or `yarn start` to run the app in development mode.
 
-5. It should auto-open http://localhost:3000 in the browser after it starts up a server for you. If a browser doesn't open up, copy and paste this link into your web brower with a starter page.
+3. It should auto-open http://localhost:5173 (perhaps [leetspeak](https://en.wikipedia.org/wiki/Leet#:~:text=Leet%20(or%20%221337%22),via%20reflection%20or%20other%20resemblance.) for vite) in the browser after it starts up a server for you. If a browser doesn't open up, copy and paste the link into your web brower with a starter page.
 
-6. After this you should open the folder and replace the src file wit the file for this Bootcamp #4 github repo. You should then be able to see a listing of the building codes and buildings, search/filter texbox and space to output details about your project.
+4. After this you should open the folder and replace the `src` file with the `src` file from this Bootcamp #4 github repo. You should then be able to see a listing of the building codes and buildings, search/filter texbox and space to output details about your project.
 
-7. Use the starter code (e.g, create-react-app with Bootcamp #4 code you created in steps 1-3) to create a front-end interface with React.js to display listings, as well as the ability to add new listings and delete old ones. 
+5. Use the given starter code to create a front-end interface with React.js to display listings, as well as the ability to add new listings and delete old ones.
 
 **See Development Goals** above for specific implemenetation details for this project.
 
