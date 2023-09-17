@@ -4,57 +4,55 @@ import ViewBuilding from './components/ViewBuilding';
 import BuildingList from './components/BuildingList';
 import Credit from './components/Credit';
 
-class App extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      filterText: '',
-      selectedBuilding: 0
-    };
+function App({ data }) {
+  // TODO: Update the following two variables to use the useState() hook
+  const filterText = '';
+  const selectedBuilding = 0; 
+
+  function filterUpdate(value) {
+    // TODO: Set the state of the filter text to the value being passed in
   }
 
-  filterUpdate(value) {
-    //Here you will need to set the filterText property of state to the value passed into this function
+  function selectedUpdate(id) {
+    // TODO: Set the state of the selected building to the id being passed in
   }
 
-  selectedUpdate(id) {
-    //Here you will need to update the selectedBuilding property of state to the id passed into this function
-  }
-
-  render() {
-    
-    return (
-      <div className="bg">
+  return (
+    <div className="bg">
+      <div className="row">
+        <h1>UF Directory App</h1>
+      </div>
+      {/* TODO: Edit Search component to include necessary props */}
+      <Search />
+      <main>
         <div className="row">
-          <h1>UF Directory App</h1>
-        </div>
-
-        <Search/>
-        <main>
-          <div className="row">
-            <div className="column1">
-              <div className="tableWrapper">
-                <table className="table table-striped table-hover">
-                  <tr>
-                    <td>
-                      <b>Code Building</b>
-                    </td>
-                  </tr>
-                  <BuildingList
-                    data={this.props.data}
-                  />
-                </table>
-              </div>
-            </div>
-            <div className="column2">
-              <ViewBuilding />
+          <div className="column1">
+            <div className="tableWrapper">
+              <table className="table table-striped table-hover">
+              <thead>
+                <tr>
+                  <td>
+                    <b>Code Building</b>
+                  </td>
+                </tr>
+              </thead>
+              <tbody>
+                {/* TODO: Edit BuildingList component to include necessary props */}
+                <BuildingList
+                  data={data}
+                />
+              </tbody>
+              </table>
             </div>
           </div>
-          <Credit />
-        </main>
-      </div>
-    );
-  }
+          <div className="column2">
+            <ViewBuilding />
+          </div>
+        </div>
+        <Credit />
+      </main>
+    </div>
+  );
 }
 
 export default App;

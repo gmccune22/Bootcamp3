@@ -1,18 +1,23 @@
 import React from 'react';
 
-class Search extends React.Component {
-	filterUpdate() {
-		//Here you will need to update the value of the filter with the value from the textbox
-	}
-	render() {
-		//You will need to save the value from the textbox and update it as it changes
-		//You will need the onChange value for the input tag to capture the textbox value
-		
-		return (
-			<form>
-				<input type="text" placeholder="Type to Filter" />
-			</form>
-		);
-	}
+function Search({ filterUpdate }) {
+  // TODO: Update the input variable to use the useRef() hook
+  const input = null;
+
+  function handleChange() {
+    // TODO: Update the value of the filter with the input from the textbox
+    // Hint: You will need to use the "current" property of the input variable
+  }
+
+  return (
+    // TODO: Add a ref attribute to the input tag
+    // TODO: Add an onChange attribute to the input tag
+    <form>
+      <input 
+        type="text"
+        placeholder="Type to Filter"
+      />
+    </form>
+  );
 }
 export default Search;
