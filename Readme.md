@@ -11,7 +11,7 @@ When developing the UI of your web application you will be using three major lan
 - [**HTML**](https://www.w3schools.com/html/) (HyperText Markup Language) is a [**markup language**](https://en.wikipedia.org/wiki/Markup_language) most commonly used to create web pages. HTML is used to build the structure of your web page.
 - [**CSS**](https://www.w3schools.com/css/default.asp) (Cascading Style Sheets) is used to describe the presentation of our HTML pages. It is a styling markup language is used to format the appearance of different structural elements. 
 - [**JavaScript:**](https://www.w3schools.com/js/default.asp) A programming language is used to describe the functionality and handle all the dynamic elements on the web page. 
-- [**JSX**](https://reactjs.org/docs/introducing-jsx.html) - JSX is a syntax extension to JavaScript used by React. JSX mixes HTML and JavaScript. It is similar to a template language, but it has full power of JavaScript.
+- [**JSX**](https://react.dev/learn/writing-markup-with-jsx) - JSX is a syntax extension to JavaScript used by React. JSX mixes HTML and JavaScript. It is similar to a template language, but it has full power of JavaScript.
 
 If you aren't familiar with these technologies, please go through [this tutorial](http://learn.shayhowe.com) to learn the fundamentals of these two web technologies before continuing to the ***Bootstrap 4*** section. Keep in mind that this tutorial is very detailed and may take some time. Make sure to pay specific attention to:
 
@@ -20,21 +20,21 @@ If you aren't familiar with these technologies, please go through [this tutorial
 -   The box model
 -   Positioning content with CSS
 
-To get a basic introduction to JSX [**see the docs here**](https://reactjs.org/docs/introducing-jsx.html) and find a more in-depth tutorial on JSX [**here**](https://reactjs.org/docs/jsx-in-depth.html). In most cases, we will use JSX instead of Javascript to develop our application. 
+To get an introduction to JSX [**see the docs here**](https://react.dev/learn/writing-markup-with-jsx). In most cases, we will use JSX instead of Javascript to develop our application. 
 
-### Bootstrap 4 - Styling Templates
+### Bootstrap 5 - Styling Templates
 While we could create our web application with just HTML, CSS, and Javascript, writing all of our styles from scratch would be tedious.
 
-Say we have an application that will be used by desktop, tablet, and mobile users alike. Our CSS would have to be responsive, changing the layout of the page depending on the user's device. Luckily, we have [Bootstrap](http://getbootstrap.com/), a responsive HTML/CSS/JS framework made by Twitter, to style our web applications. Bootstrap provides a [grid system](https://getbootstrap.com/docs/4.3/layout/grid/) for easy layout and many components that will give the application a clean, modern, and consistent look.
+Say we have an application that will be used by desktop, tablet, and mobile users alike. Our CSS would have to be responsive, changing the layout of the page depending on the user's device. Luckily, we have [Bootstrap](http://getbootstrap.com/), a responsive HTML/CSS/JS framework made by Twitter, to style our web applications. Bootstrap provides a [grid system](https://getbootstrap.com/docs/5.3/layout/grid/) for easy layout and many components that will give the application a clean, modern, and consistent look.
 
 Bootstrap's documentation is extensive, so don't worry about memorizing everything Bootstrap has to offer. If you understand the fundamentals of HTML and CSS, you should feel comfortable with the mechanics of the grid system and using classes to add styles to your HTML components. It'll be a better use of time to just refer back to the documentation whenever you need to add a new component to your webpage.
 
-**Getting Started - Bootstrap 4**  https://getbootstrap.com/docs/4.3/getting-started/introduction/
+**Getting Started - Bootstrap 5**  https://getbootstrap.com/docs/5.3/getting-started/introduction/
 
 **Resources**
 - [Bootstrap Style Guide](https://drive.google.com/file/d/1fumbJT-ln-WzrSY_ZEtN44WhAw2asyXF/view) created for course
 - Example Bootstrap Components and Layouts (https://getbootstrap.com/docs/4.3/examples/)
-- [Components](https://getbootstrap.com/docs/4.3/components/) - Look in the sidebar for additional components - buttons, input groups, toasts, forms, etc
+- [Components](https://getbootstrap.com/docs/5.3/customize/components/) - Look in the sidebar for additional components - buttons, input groups, toasts, forms, etc
 - [Feather](https://feathericons.com/) Open Source Icons
 
 ### Single-page Application
