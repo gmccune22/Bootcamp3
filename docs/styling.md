@@ -8,10 +8,11 @@ Bootstrap's documentation is extensive, so don't worry about memorizing everythi
 
 ## Getting Started - Bootstrap 5
 
-[Bootstrap Docs for Getting Started](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
+[Guide for Bootcamp](/docs/bootstrap-guide.md) (but also refer to official docs below)
 
 ### Resources
 
+- [Official Bootstrap Docs for Getting Started](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
 - [Example Bootstrap Components and Layouts](https://getbootstrap.com/docs/5.3/examples/)
 - [Components](https://getbootstrap.com/docs/5.3/components/) - buttons, input groups, toasts, forms, etc
 - [Feather](https://feathericons.com/) - open source icons
