@@ -4,13 +4,13 @@
 
 React makes it (relatively) easy to start building an application by extending HTML so that the markup can describe not only the static webpage but also dynamic behavior.
 
-Note: Outside of the pure React library itself, there are 3 distinct versions of React: React-devtools, ReactJS.Net, React Native. Other than React itself, React Native is pretty popular as well for creating Native mobile apps. However, we will be using React.js.
+Note: Besides the pure React library itself, there are 3 distinct versions of React: React-devtools, ReactJS.Net, React Native. Other than React itself, React Native is pretty popular as well for creating Native mobile apps. However, we will be using React.js.
 
 ## JSX
 
 React uses its own flavor of Javascript called JSX. JSX allows us to describe our User Interfaces (UIs) in a syntax very close to the HTML that we are used to. It is, however, optional. React can be used without JSX. In fact, React just compiles JSX to pure JavaScript. Then it works with compiled JavaScript in the browser.
 
-To get a basic introduction to JSX [**see the docs here**](https://react.dev/learn/writing-markup-with-jsx) and find a more in-depth tutorial on JSX [**here**](https://reactjs.org/docs/jsx-in-depth.html). In most cases, we will use JSX instead of Javascript to develop our application.
+To get a basic introduction to JSX [**see the docs here**](https://react.dev/learn/writing-markup-with-jsx) and find a more in-depth tutorial on JSX [**here**](https://react.dev/learn/writing-markup-with-jsx#the-rules-of-jsx). In most cases, we will use JSX instead of Javascript to develop our application.
 
 ## React Components
 
@@ -53,14 +53,14 @@ While function components use hooks, class components use [lifecycle methods](ht
 
 Since 2019, function components have become the more popular way to define a React component. Function components are simpler to write, easier to test, and help maintain best practices.
 
-[**Anatomy of a React Componnent**](https://codeburst.io/react-state-vs-props-explained-51beebd73b21)
+[**Anatomy of a React Component**](https://codeburst.io/react-state-vs-props-explained-51beebd73b21)
 
 [React Components](https://react.dev/learn/your-first-component)  
-Component names should also always start with a capital letter (`<Wrapper/> not <wrapper/>`). See [**documentation**](https://react.dev/learn/passing-props-to-a-component) for more information on rendering components.
+Component names should also always start with a capital letter (`<Wrapper/> not <wrapper/>`). See [**documentation**](https://react.dev/learn/your-first-component#using-a-component) for more information on using components.
 
 ## Component Communication - State vs Props
 
-In a React component, [props](https://react.dev/learn/passing-props-to-a-component) carry data around your application. Props are variables passed to it by its parent component. State on the other hand are also variables, but directly initialized and managed by the component. The state can be initalized by props.
+In a React component, props carry data around your application. Props are variables passed to it by its parent component. State on the other hand are also variables, but directly initialized and managed by the component. The state can be initialized by props.
 
 The State and Props objects have one important difference. Inside a class component, the State object can be changed while the Props object represents fixed values.
 
@@ -104,8 +104,8 @@ Most of your components will just display some kind of information based on the 
 
 React certainly has a learning curve, and you should take some time going through tutorials to understand the basics. Below is a list of concepts and resources that may be helpful.
 
-- [**React Vocabulary**](https://reactjs.org/docs/glossary.html) - This is a must read as you are working though the assignment and tutorials.
+- [**React Vocabulary**](https://reactjs.org/docs/glossary.html) - This is a must-read as you are working though the assignment and tutorials.
 
 - [**Thinking in React**](https://react.dev/learn/thinking-in-react) - This gives you an overview and philosophy for developing in React.
 
-- [**React Developer Tools**](https://www.freecodecamp.org/news/how-to-see-your-react-state-props-in-the-browser-774098a50fcc/) Download the React Developer Tools Chrome Plug-in to help you debug your application or use the Chrome Developer Tools
+- [**React Developer Tools**](https://react.dev/learn/react-developer-tools) Download the React Developer Tools Chrome Plug-in to help you debug your application or use the Chrome Developer Tools
