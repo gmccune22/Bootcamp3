@@ -108,4 +108,6 @@ React certainly has a learning curve, and you should take some time going throug
 
 - [**Thinking in React**](https://react.dev/learn/thinking-in-react) - This gives you an overview and philosophy for developing in React.
 
-- [**React Developer Tools**](https://react.dev/learn/react-developer-tools) Download the React Developer Tools Chrome Plug-in to help you debug your application or use the Chrome Developer Tools
+- [**React Developer Tools**](https://react.dev/learn/react-developer-tools) - Download the React Developer Tools Chrome Plug-in to help you debug your application or use the Chrome Developer Tools
+
+- [**Baby Names React Tutorial**](https://egghead.io/courses/build-a-name-picker-app-intro-to-react-hooks-context-api-1ded) (Optional) - Beginner friendly lessons that cover some useful things for the bootcamp
