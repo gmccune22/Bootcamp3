@@ -23,7 +23,7 @@ For this assignment you will be building upon our UF directory application by cr
 
 ### Starter Application
 
-*After using the [**create-vite**](https://vitejs.dev/guide/#scaffolding-your-first-vite-project) tool with the React template, you can replace the src file in the starter application with the src file from the Bootcamp #4 assignment repo*. You'll then see the following files in your project directory:
+*After using the [**create-vite**](https://vitejs.dev/guide/#scaffolding-your-first-vite-project) tool with the React template, you can replace the src file in the starter application with the src file from the Bootcamp #3 assignment repo*. You'll then see the following files in your project directory:
 
 - *src/data/data.js* - A list of buildings formatted to work with React and JSX to render the contents to the browser
 - *src/App.css* - An empty file that we aren't using for this project but do not delete it as it will affect the functioning of your program
