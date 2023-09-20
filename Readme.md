@@ -1,5 +1,5 @@
 
-# Bootcamp 4 - Introduction to Frontend Development with React
+# Bootcamp 3 - Introduction to Frontend Development with React
 
 In this assignment, we will continue to build upon our directory application by creating a frontend interface with React.js to display listings, as well as the ability to add new listings and delete old ones.
 
@@ -77,7 +77,7 @@ As you develop the solution to this assignment you will need to complete at leas
 
 ### Setup
 
-*Note: This is a big assignment, start early and work on getting simple things working first. **Remember the Baby Name App tutorial listed in the React section, provides a video tutorial walk through of many of the features you will be completing for this project.**
+*Note: This is a big assignment, start early and work on getting simple things working first. 
 
 1. Install Bootstrap 5, [there are 3  ways](https://getbootstrap.com/docs/5.3/getting-started/download/):
    1. npm install bootstrap (or yarn add bootstrap) - *Recommended*
