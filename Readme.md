@@ -68,7 +68,7 @@ As you develop the solution to this assignment you will need to complete at leas
   - AddBuilding.jsx - Add a building to the listings
   - RemoveBuilding.jsx - remove a building from the listings
 
-- index.css - Style the User Interface of this app using CSS and Bootstrap 4 to make this app look professional and user-friendly, e.g.
+- index.css - Style the User Interface of this app using CSS and Bootstrap 5 to make this app look professional and user-friendly, e.g.
   - style the listings
   - add icons for search, add, and delete
   - search bar
