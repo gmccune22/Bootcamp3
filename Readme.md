@@ -93,7 +93,7 @@ As you develop the solution to this assignment you will need to complete at leas
    3. download - **great for project** not recommended for Bootcamp #3 project
 
 2. Use the [**create-vite**](https://vitejs.dev/guide/#scaffolding-your-first-vite-project) tool with the React template to help you get started with a scaffold for your first React project.
-   - Run one of the following commands in terminal to create a starter application my-app (note: you can change this to bootcamp4 if you like.)
+   - Run one of the following commands in terminal to create a starter application my-app (note: you can change this to bootcamp3 if you like.)
    - `npm create vite@latest my-app --template react`
    - `yarn create vite my-app --template react`
    - `pnpm create vite my-app --template react`
