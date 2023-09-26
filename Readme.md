@@ -19,7 +19,7 @@ This readme file contains an outline and overview of the technologies and concep
 
 ## Assignment Overview
 
-For this assignment you will be building upon our UF directory application by creating a frontend interface with React.js to display listings, search/filter, as well as the ability to add new listings and delete old ones. Note: We won't connect the frontend to the back-end in this assignment, we will leave that for Bootcamp #5.
+For this assignment you will be building upon our UF directory application by creating a frontend interface with React.js to display listings, search/filter, as well as the ability to add new listings and delete old ones. Note: We won't connect the frontend to the back-end in this assignment, we will leave that for another bootcamp.
 
 ### Starter Application
 
@@ -90,10 +90,10 @@ As you develop the solution to this assignment you will need to complete at leas
        - simply add the link in head tag and script before closing body tag
        - see [here](https://getbootstrap.com/docs/5.3/getting-started/download/#alternative-cdns) for alternative CDNs
 
-   3. download - **great for project** not recommended for Bootcamp #4 project
+   3. download - **great for project** not recommended for Bootcamp #3 project
 
 2. Use the [**create-vite**](https://vitejs.dev/guide/#scaffolding-your-first-vite-project) tool with the React template to help you get started with a scaffold for your first React project.
-   - Run one of the following commands in terminal to create a starter application my-app (note: you can change this to bootcamp4 if you like.)
+   - Run one of the following commands in terminal to create a starter application my-app (note: you can change this to bootcamp3 if you like.)
    - `npm create vite@latest my-app --template react`
    - `yarn create vite my-app --template react`
    - `pnpm create vite my-app --template react`
@@ -106,7 +106,7 @@ As you develop the solution to this assignment you will need to complete at leas
 
 5. It should auto-open http://localhost:5173 (because 5173 is [leetspeak](https://en.wikipedia.org/wiki/Leet#:~:text=Leet%20(or%20%221337%22),via%20reflection%20or%20other%20resemblance.) for vite) in the browser after it starts up a server for you. If a browser doesn't open up, copy and paste the link into your web browser with a starter page.
 
-6. After this you should open the folder and replace the `src` file with the `src` file from this Bootcamp #4 github repo. You should then be able to see a listing of the building codes and buildings, search/filter text box and space to output details about your project.
+6. After this you should open the folder and replace the `src` file with the `src` file from this Bootcamp #3 github repo. You should then be able to see a listing of the building codes and buildings, search/filter text box and space to output details about your project.
 
 7. Use the given starter code to create a frontend interface with React.js to display listings, as well as the ability to add new listings and delete old ones.
 

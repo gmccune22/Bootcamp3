@@ -1,5 +1,3 @@
-import React from 'react';
-
 function ViewBuilding() {
   // TODO: Find the corresponding data based off the selected building's id and display its data
   return (

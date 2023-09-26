@@ -1,5 +1,3 @@
-import React from 'react';
-
 function Search({ filterUpdate }) {
   // TODO: Update the input variable to use the useRef() hook
   const input = null;
